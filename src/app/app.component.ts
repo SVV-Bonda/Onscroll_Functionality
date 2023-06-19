@@ -10,5 +10,6 @@ export class AppComponent  {
 
   onScroll(){
     alert()
+    // this.result = [...this.result, ...this.mergeArray]; for Merge array values
   }
 }
