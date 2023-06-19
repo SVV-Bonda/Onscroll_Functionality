@@ -1,5 +1,5 @@
 import { Component, VERSION } from '@angular/core';
-declare let alertify: any;
+// declare let alertify: any;
 
 @Component({
   selector: 'my-app',
@@ -10,7 +10,7 @@ export class AppComponent {
   name = 'Angular ' + VERSION.major;
 
   onScroll() {
-    alertify.success('scrolled');
+    alert('scrolled');
     // this.result = [...this.result, ...this.mergeArray]; for Merge array values
   }
 }

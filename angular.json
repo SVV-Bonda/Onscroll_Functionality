@@ -23,12 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "nodemodules/alertifyjs/build/css/alertify.min.css",
-              "nodemodules/alertifyjs/build/css/themes/bootstrap.min.css"
+              "src/styles.css"
             ],
             "scripts": [
-              "nodemodules/alertifyjs/build/alertify.min.js"
             ]
           },
           "configurations": {
